@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85fdb0f1.chunk.css",
+    "main.js": "/static/js/main.44967e23.chunk.js",
+    "main.js.map": "/static/js/main.44967e23.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
+    "static/css/2.74170c84.chunk.css": "/static/css/2.74170c84.chunk.css",
+    "static/js/2.1d026d34.chunk.js": "/static/js/2.1d026d34.chunk.js",
+    "static/js/2.1d026d34.chunk.js.map": "/static/js/2.1d026d34.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.74170c84.chunk.css.map": "/static/css/2.74170c84.chunk.css.map",
+    "static/css/main.85fdb0f1.chunk.css.map": "/static/css/main.85fdb0f1.chunk.css.map",
+    "static/js/2.1d026d34.chunk.js.LICENSE.txt": "/static/js/2.1d026d34.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/static/media/react.871d6472.ico",
+    "static/media/discord.19acbcda.ico": "/static/media/discord.19acbcda.ico",
+    "static/media/htoo.5a5d7e3d.jpg": "/static/media/htoo.5a5d7e3d.jpg",
+    "static/media/linkedin.ff45b1bf.ico": "/static/media/linkedin.ff45b1bf.ico",
+    "static/media/mail.a1859096.ico": "/static/media/mail.a1859096.ico"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ebc510a.js",
+    "static/css/2.74170c84.chunk.css",
+    "static/js/2.1d026d34.chunk.js",
+    "static/css/main.85fdb0f1.chunk.css",
+    "static/js/main.44967e23.chunk.js"
+  ]
+}
