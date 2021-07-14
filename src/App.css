@@ -1,38 +1,110 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --border-color: #000000;
+  --background-color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 0;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* min-height: 95vh; */
+  height: calc(100vh - 30px);
+  min-width: 97vw;
 }
 
-.App-link {
-  color: #61dafb;
+body:before,
+body:after {
+  content: "";
+  position: fixed;
+  background: var(--border-color);
+  left: 15px;
+  right: 15px;
+  height: 15px;
+}
+body:before {
+  top: 15px;
+}
+body:after {
+  bottom: 15px;
+}
+body {
+  border-left: 15px solid var(--border-color);
+  border-right: 15px solid var(--border-color);
+  margin: 15px;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading {
+  margin-bottom: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 22px;
+}
+
+.body-content,
+.footer-content {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1rem;
+}
+
+.footer-content {
+  font-size: 18px;
+}
+
+.body {
+  margin-bottom: 5rem;
+}
+
+.tooltip {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: 3px solid var(--border-color);
+  padding: 1rem;
+  /* background-color: var(--background-color); */
+}
+
+.link {
+  color: var(--border-color);
+}
+
+.here:hover {
+  cursor: url("./images/nerd.ico"), auto;
+}
+
+.htoo-img {
+  border: 6px solid var(--border-color);
+  display: block;
+  max-height: 150px;
+  max-width: 150px;
+  height: auto;
+  width: auto;
+}
+
+.htoo {
+  text-decoration: underline;
+}
+
+.htoo:hover {
+  cursor: url("./images/cool.ico"), auto;
+}
+
+.react:hover {
+  cursor: url("./images/react.ico"), auto;
+}
+
+.python:hover {
+  cursor: url("./images/python.ico"), auto;
 }
