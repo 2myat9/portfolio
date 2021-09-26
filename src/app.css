@@ -51,6 +51,14 @@ body {
   line-height: 22px;
 }
 
+.project-heading {
+  margin-bottom: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 20px;
+}
+
 .body-content,
 .footer-content {
   font-family: "Poppins", sans-serif;
@@ -65,6 +73,16 @@ body {
 
 .body {
   margin-bottom: 5rem;
+}
+
+li {
+  margin: 20px 0;
+  font-size: 20px;
+  line-height: 1.8rem;
+}
+
+ul {
+  list-style: url("./images/bullet-icon.png");
 }
 
 .tooltip {
