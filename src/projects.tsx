@@ -32,7 +32,9 @@ export const Projects = () => {
                     </a>
                     : Hired by my college to build a Minimum Viable Product to
                     prototype the core features of a web app aimed at educating
-                    kids about urban forests in entertainning ways.
+                    kids about urban forests in entertainning ways. Used React
+                    Typescript and Tailwind to write reusable UI components, and
+                    used Firebase to work with user data.
                   </li>
                   <li>
                     <a
@@ -44,11 +46,11 @@ export const Projects = () => {
                     </a>
                     : a web page for celebrating a special occasion with an
                     interactive 3-D card that delightfully displays your image
-                    and message.
+                    and message. Written using React and CSS.
                   </li>
                   <li>
                     <a
-                      href="https://github.com/2myat9?tab=repositories"
+                      href="https://github.com/2myat9"
                       target="_blank"
                       className="link"
                     >
