@@ -40,7 +40,7 @@ export const Home = () => {
           <div className="body">
             <div className="body-content">
               <p>
-                I write{" "}
+                I love{" "}
                 <span className="react">
                   <Tooltip
                     html={
@@ -56,7 +56,7 @@ export const Home = () => {
                     inertia={true}
                     animation="perspective"
                   >
-                    React Typescript
+                    React, Typescript,
                   </Tooltip>
                 </span>{" "}
                 and{" "}
